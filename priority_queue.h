@@ -3,7 +3,7 @@
 template <typename T> 
 class templatePriorityQueue {
 	private:
-		std::priority_queue<T> storage;
+		std::priority_queue<T> storage_;
 	public:
 		templatePriorityQueue();
 		~templatePriorityQueue();
